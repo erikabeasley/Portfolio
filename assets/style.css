@@ -12,6 +12,9 @@ a, li, h1, p {
 .navbar {
     float: right;
 }
+.dropdown-item {
+    color: grey;
+}
 .navbar-right {
     background-color: white;
     text-align: right;
@@ -31,11 +34,25 @@ a, li, h1, p {
   .btn-linkedin:active, .btn-linkedin:hover {
   } */
 
+/* Home Page */
+.container {
+    margin: 100px;
+}
+.home-img img{
+    border-radius: 25%;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 300px;
+}
+
  /* About Me Page  */
 #aboutMe {
     max-width: 900px;
     min-height: 750px;
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 #titleAboutMe {
     color:rgb(61, 61, 61);
