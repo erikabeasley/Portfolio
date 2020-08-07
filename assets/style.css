@@ -1,6 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+   padding-bottom: 2.5rem;    /* Footer height */
+}
 a, li, h1, p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -44,7 +51,6 @@ a, li, h1, p {
     color: grey;
 }
 .home-img {
-   
     margin-left: 50%;
     margin-bottom: none;
 }
@@ -170,6 +176,7 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 2.5rem; 
     background-color: rgb(66, 66, 66);
 }
 
@@ -181,25 +188,14 @@ p {
 
 /* Responsive images and and layout */
 @media (max-width: 640px) {
-    #header {
-        text-align: center;
-    }
-    form {display: inline;}
-    a {text-align: center;}
-    .column {
-        width: 50%;
-      }
+
+
 }
 @media (max-width: 768px) {
-    form {display: inline-block;}
-    .column {
-        width: 100%;
-      }
+    
+
 }
 @media (max-width: 980px) {
-    form {float: left;}
-    .column {
-        width: 100%;
-      }
+  
 
 }
