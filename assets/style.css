@@ -18,6 +18,9 @@ a, li, h1, p {
 .navbar {
     float: right;
 }
+.myLogo {
+    height: 70px;
+}
 .dropdown-item {
     color: grey;
 }
@@ -61,8 +64,8 @@ a, li, h1, p {
  /* About Me Page  */
 #aboutMe {
     margin-top: 100px;
-    max-width: 900px;
-    min-height: 750px;
+    max-width: 1000px;
+    min-height: 650px;
     margin-bottom: 100px;
 }
 #titleAboutMe {
@@ -71,24 +74,39 @@ a, li, h1, p {
 
 .circular--portrait {
     position: relative;
-    width: 340px;
-    height: 340px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 50%;
     float: right;
+    margin-left: 20px;
 }
 .circular--portrait img {
     width: 100%;
     height: auto; 
+    opacity: 70%;
+   
 }
 .bio {
     margin: 25px;
-    max-width: 460px;
+    max-width: 550px;
 }
 #bioHead {
     margin-top: 70px;
     font-size: 25px;
     color: grey;
+}
+.resume {
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(172, 199, 202);
+}
+.fa-file-alt, .fa-home {
+    margin-right: 20px;
+    font-size: 25px;
 }
 
 
@@ -199,6 +217,17 @@ p {
     padding: 0px;
     padding-right: 25px;
   }
+.ksulogo {
+    width: 70px;
+    height: 70px;
+    color: azure;
+}
+.gtlogo {
+    width: 160px;
+    height: 65px;
+    color: azure;
+    padding-left: 20px;
+}
 .subFooter{
     position: relative;
     bottom: 0;
